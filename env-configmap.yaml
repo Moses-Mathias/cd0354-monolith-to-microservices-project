@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_HOST: musinde-db-dev.cggjtjzbdu8w.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: moses-395845309093-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: https://11FCD748DBE09A17FE805E31FDBA4D80.gr7.us-east-1.eks.amazonaws.com:8100
+
